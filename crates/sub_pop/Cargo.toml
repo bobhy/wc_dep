@@ -1,14 +1,9 @@
 [package]
-name = "wc_dep"
+name = "sub_pop"
 version = "0.1.0"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
-[dependencies]  
-b = "*"
-sub_pop = { path = "./crates/sub_pop"}
-
-[workspace]
-members = ["crates/sub_pop"]
-
+[dependencies]
+test_crate_test = "*"
